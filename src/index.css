@@ -99,18 +99,22 @@ input[type=text], select {
 .phone{
   font-size: 20px;
   margin: 20px;
+  text-align: center;
 }
 .email{
   font-size: 20px;
   margin: 20px;
+  text-align: center;
 }
 .address{
   font-size: 20px;
   margin: 20px;
+  text-align: center;
 }
 .free{
   font-size: 25px;
   margin: 20px;
+  text-align: center;
 }
 .flex-container {
   display: flex;
