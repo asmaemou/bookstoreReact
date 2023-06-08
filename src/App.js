@@ -5,6 +5,7 @@ import Footer from './Footer';
 import List from './List';
 import AddBook from './AddBook';
 import Contact from './Contact';
+import {style} from './style';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/add" element={<AddBook />}/>
         <Route exact path="/contact" element={<Contact />}/>
       </Routes>
-      <Footer />
+      <div style={style.Footer} />
     </>
   );
 }
