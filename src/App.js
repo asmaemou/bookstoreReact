@@ -5,18 +5,17 @@ import Footer from './Footer';
 import List from './List';
 import AddBook from './AddBook';
 import Contact from './Contact';
-import nav from './nav.js'
-import {label} from "./style.js";
+
 function App() {
   return (
     <>
-      <Navbar style={nav}/>
+      <Navbar/>
       <Routes>
         <Route exact path="/" element={<List />}/>
         <Route exact path="/add" element={<AddBook />}/>
         <Route exact path="/contact" element={<Contact />}/>
       </Routes>
-      <Footer style={nav}/>
+      <Footer/>
     </>
   );
 }
